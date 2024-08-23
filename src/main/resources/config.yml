@@ -1,0 +1,10 @@
+#postmanJson输入文件的路径
+postmanJsonPath: C://Users/Administrator/Desktop/bps测试/云化流程组件.postman_collection-v3.json
+#excel输出文件的路径
+excelPath: D://bps接口.xlsx
+#目前只实现了postman文件中接口的name、path、requestParams输出,如需增加其他字段输出则在源码的基础上拓展代码实现即可。
+#下面用以配置name、path、requestParams列在excel中输出的列数
+columnConfig:
+  name: 0
+  path: 1
+  requestParams: 2
